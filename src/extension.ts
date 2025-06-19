@@ -6,7 +6,7 @@ import { ProvideCompletion } from './provide-completion';
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
-	context.subscriptions.push(ProvideCompletion.instance.create());
+	context.subscriptions.push(ProvideCompletion.register());
 }
 
 // This method is called when your extension is deactivated
