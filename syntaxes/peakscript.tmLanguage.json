@@ -59,16 +59,16 @@
     "strings": {
       "patterns": [
         {
-          "name": "string.quoted.double.peakscript",
-          "match": "\".*\""
+          "match": "\"([^\"]|\\\\\")*\"",
+          "name": "string.quoted.double"
         },
         {
-          "name": "string.quoted.double.peakscript",
-          "match": "'.*'"
+          "match": "`([^`]|\\\\`)*`",
+          "name": "string.quoted.double"
         },
         {
-          "name": "string.quoted.double.peakscript",
-          "match": "`.*`"
+          "match": "'([^']|\\\\')*'",
+          "name": "string.quoted.double"
         }
       ]
     },

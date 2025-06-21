@@ -78,6 +78,10 @@ export class ProvideCompletion {
             },
             algorithm: {
                 merge_sort: "(target: array, comp: function)"
+            },
+            peak: {
+                exp: "(text: string): number | string",
+                execute: "(src: string)"
             }
         }
     };
